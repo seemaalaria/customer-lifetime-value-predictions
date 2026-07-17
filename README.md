@@ -40,8 +40,6 @@ A time-based cutoff strategy was applied to predict each customer's revenue over
 - NumPy
 - Scikit-learn
 - Matplotlib
-- SQL (for data querying and preprocessing)
-
 ---
 
 ## ⚙️ Methodology
@@ -62,6 +60,49 @@ A time-based cutoff strategy was applied to predict each customer's revenue over
 8. Customer Value Segmentation
 
 9. Business Insights and Recommendations
+---
+## Feature Engineering
+
+Features created include:
+
+- Past Revenue
+- Past Transactions
+- Recency
+- Customer Age
+- Average Order Value
+- Purchase Frequency
+
+---
+## Models Used
+
+- Linear Regression
+- Random Forest Regressor
+- Gradient Boosting Regressor
+
+---
+## Evaluation Metrics
+
+- Mean Absolute Error (MAE)
+- Root Mean Squared Error (RMSE)
+- R² Score
+
+Best Tuned Random Forest Results:
+
+- MAE: 1049.67
+- RMSE: 7549.55
+- R² Score: 0.124
+
+---
+## Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Jupyter Notebook
+
 ---
 
 ## 📈 Results
